@@ -1,4 +1,3 @@
-import React from 'react'
 import Nav from './compoenents/Nav'
 import Content from './compoenents/Content'
 
