@@ -23,3 +23,49 @@
     color: var(--apple-red);
     font-size: 1.2em;
 }
+
+.img-box {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 80px;
+}
+
+.img-box img {
+    position: absolute;
+    height: 110%;
+    right: 0;
+    bottom: 0;
+    transition: right 1s;
+}
+
+.img-box:hover .hook {
+    right: 50px;
+}
+
+.socials {
+    position: absolute;
+    top: 85%;
+    left: 8%;
+}
+
+.socials a {
+    text-decoration: none;
+    color: var(--socials);
+    margin: 0 15px;
+}
+
+.socials a .icon {
+    font-size: 3rem;
+}
+
+.icon {
+    transition: transform 0.2s ease-in-out, color 0.2s;
+    color: var(--socials);
+}
+
+.icon:hover {
+    transform: scale(1.2);
+    color: var(--socials-hover);
+}

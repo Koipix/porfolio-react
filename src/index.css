@@ -5,32 +5,50 @@
     font-family: monospace;
 }
 
+html {
+    scroll-snap-type: y mandatory;
+}
+
 :root {
     --apple-red: #dd13d3;
     --socials: #ff18f3;
+    --socials-hover: #fc3d7d;
     --bg-blue: #1F242D;
-    --footer-dblue: #14171d;  
+    --footer-dblue: #14171d;
 }
 
 .container {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-image:linear-gradient(
         rgba(0,0,0,0.75),
-        rgba(0,0,0,0.75)), 
+        rgba(0,0,0,0.75)),
         url(assets/rika.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    scroll-snap-align: start;
 }
 
 .container2 {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-image:linear-gradient(
         rgba(0,0,0,0.75),
-        rgba(0,0,0,0.75)), 
-        url(assets/rika.jpg);
+        rgba(0,0,0,0.75)),
+        url(assets/port-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    scroll-snap-align: start;
 }
 
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--apple-red);
+}
