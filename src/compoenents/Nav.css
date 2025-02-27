@@ -1,0 +1,48 @@
+:root {
+    --apple-red: #dd13d3;
+    --socials: #ff18f3;
+    --bg-blue: #1F242D;
+    --footer-dblue: #14171d;  
+}
+
+.navbar {
+    position: fixed;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    padding: 70px 100px;
+    align-items: center;
+}
+
+.navbar .logo {
+    color:whitesmoke;
+    font-size: 4.3rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navbar .logo span {
+    color: var(--apple-red);
+}
+
+.navbar ul {
+    display: flex;
+    position: relative;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar ul li {
+    position: relative;
+    margin: 0px 15px;
+}
+
+.navbar ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: bold;
+}

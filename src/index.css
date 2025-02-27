@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+:root {
+    --apple-red: #dd13d3;
+    --socials: #ff18f3;
+    --bg-blue: #1F242D;
+    --footer-dblue: #14171d;  
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image:linear-gradient(
+        rgba(0,0,0,0.75),
+        rgba(0,0,0,0.75)), 
+        url(assets/rika.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container2 {
+    width: 100vw;
+    height: 100vh;
+    background-image:linear-gradient(
+        rgba(0,0,0,0.75),
+        rgba(0,0,0,0.75)), 
+        url(assets/rika.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

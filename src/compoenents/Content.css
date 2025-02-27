@@ -1,0 +1,25 @@
+.content {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    color: whitesmoke;
+}
+
+.content h1 {
+    font-size: 2em;
+}
+
+.content h2 {
+    font-size: 5em;
+    letter-spacing: 2px;
+}
+
+.content h3 {
+    font-size: 2.4em;
+}
+
+.content h3 span {
+    color: var(--apple-red);
+    font-size: 1.2em;
+}
