@@ -11,7 +11,7 @@ const Content = () => {
 
   useEffect(() => {
     const options = {
-      strings: ['Full-Stack Development', 'Game Development'],
+      strings: ['"full_stack"', '"game_dev"'],
       typeSpeed: 50,
       backSpeed: 40,
       loop: true

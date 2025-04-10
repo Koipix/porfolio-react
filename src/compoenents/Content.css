@@ -69,3 +69,9 @@
     transform: scale(1.2);
     color: var(--socials-hover);
 }
+
+@media screen and (max-width: 1300px) {
+    .img-box {
+        visibility: hidden;
+    }
+}
